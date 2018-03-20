@@ -49,7 +49,7 @@
                 //var video=item.id.videoId
                 console.log(video);
                 $('#results').append('<pre>' + vidTitle +'</pre>'); 
-                var video=$("<object>").attr("src","https://www.youtube.com/embed/"+item.id.videoId).addClass("video");
+                var video=$("<object>").attr("data","https://www.youtube.com/embed/"+item.id.videoId).addClass("video");
                 $("#video").append(video);  
         })  
     })  
